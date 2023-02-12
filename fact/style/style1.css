@@ -1,0 +1,47 @@
+body {
+    direction: rtl;
+}    
+.in {
+    height: 200px;
+}
+input {
+    border-radius: 50px;
+    height: 40px;
+    font-size: x-large;
+    width: 400px;
+    background-color: rgb(71, 74, 81);
+    color: white;
+}
+.lightmode{
+    color: rgb(0, 0, 0);
+    background-color: rgb(180, 178, 178);
+}
+#left{
+    float: left;
+}
+button{
+    background-color: rgb(71, 74, 81);
+    color: white;
+    font-size: medium;
+    border-radius: 50px;
+    width: 70px;
+}
+.editColor{
+    color: rgb(179, 171, 171);
+}
+
+td{
+    border-radius: 10px;
+    width: fit-content+10px;
+    text-align: center;
+    padding: 5px;
+    font-size: xx-large;
+}
+#table{
+    float: left;
+    column-rule-color: aqua;
+}
+#showEdit{
+    visibility: hidden;
+}
+

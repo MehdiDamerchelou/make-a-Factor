@@ -1,0 +1,63 @@
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+    <script src="./script/script.js"></script>
+    <link rel="stylesheet" href="./style/style1.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فاکتور</title>
+</head>
+
+<body class="lightmode" id="all">
+    <div id="table">
+    
+    </div>
+    <div class="in" id="showadd">
+        <form action="#" method="dialog">
+            <table>
+                <tr>
+                    <td><label for="stuff">کالا:</label></td>
+                    <td><input type="text" name="stuff" id="stuff"></td>
+                </tr>
+                <tr>
+                    <td><label for="no">تعداد:</label></td>
+                    <td><input type="number" name="no" id="no"></td>
+                </tr>
+                <tr>
+                    <td><label for="cost">قیمت:</label></td>
+                    <td><input type="number" name="cost" id="cost"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button onclick="add()" style="width: max-content;height: 30px;">اضافه کردن</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div class="in" id="showEdit">
+        <form action="#" method="dialog" id="formedit">
+            <table>
+                <tr>
+                    <td><label for="stuffedit">کالا:</label></td>
+                    <td><input type="text" name="stuff" id="stuffedit"></td>
+                </tr>
+                <tr>
+                    <td><label for="noedit">تعداد:</label></td>
+                    <td><input type="number" name="no" id="noedit"></td>
+                </tr>
+                <tr id="ss">
+                    <td><label for="costedit">قیمت:</label></td>
+                    <td><input type="number" name="cost" id="costedit"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="accedit"></td>
+                </tr>
+            </table>
+            <br>
+        </form>
+    </div>
+</body>
+
+</html>
